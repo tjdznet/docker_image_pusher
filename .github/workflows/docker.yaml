@@ -58,7 +58,7 @@ jobs:
     - name: Build and push image Aliyun
       run: |
         # docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
-        done < images.txt
+
         while IFS= read -r line || [ -n "$line" ]; do
             # 忽略空行与注释
             [[ -z "$line" ]] && continue
@@ -77,6 +77,6 @@ jobs:
                 platform_prefix="${platform//\//_}_"
             fi
             echo "platform_prefix is $platform_prefix"
-
+        done < images.txt
             
 

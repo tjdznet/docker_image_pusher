@@ -5,3 +5,5 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 python:3.9.21-bookworm
+thingsboard/node:20.18.0-bookworm-slim
+thingsboard/openjdk17:bookworm-slim

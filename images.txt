@@ -8,4 +8,5 @@ python:3.9.21-bookworm
 thingsboard/node:20.18.0-bookworm-slim
 thingsboard/openjdk17:bookworm-slim
 thingsboard/tb-postgres
-postgres:16
+influxdb:1.8.3
+

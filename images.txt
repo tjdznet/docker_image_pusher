@@ -10,4 +10,4 @@ thingsboard/openjdk17:bookworm-slim
 thingsboard/tb-postgres
 influxdb:1.8.3
 influxdb:1.7.8
-
+postgres:16
